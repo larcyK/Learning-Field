@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="author" content="larcyK">
+        <title>IMAGE TEST</title>
+
+        <style>
+            video {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+        <img src="https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg"
+        alt="Big thunder mounten"
+        width="200" height="171"
+        title="ダイナソーは切なそう">
+        -->
+        <h2>画像の表示テスト</h2>
+        <figure>
+            <img src="https://raw.githubusercontent.com/mdn/learning-area/master/html/multimedia-and-embedding/images-in-html/dinosaur_small.jpg"
+            alt="Big thunder mounten"
+            width="200" height="171">
+            <figcaption>ダイナソーは切なそう</figcaption>
+        </figure>
+
+        <h2>ビデオの表示テスト</h2>
+        <video controls width="500" height="500"
+            loop muted poster="./sources/poster.png">
+            <source src="./sources/videos/video.mp4" type="video/mp4">
+            <source src="./sources/videos/video.webm" type="video/webm">
+            <p>お使いのブラウザは HTML5 動画をサポートしていません。その代わりに<a href="./sources/videos/video.mp4">動画へのリンク</a>があります。</p>
+            <track kind="subtitles" src="./sources/subtitles/subtitle_ja.vtt" srclang="ja" default>
+            <track kind="subtitles" src="./sources/subtitles/subtitle_en.vtt" srclang="en">
+        </video>
+
+        <figure>
+            <h2>オーディオの表示テスト</h2>
+            <audio controls loop>
+                <source src="./sources/audios/audio.mp3" type="audio/mp3">
+                <source src="./sources/audios/audio.ogg" type="audio/ogg">
+                <p>お使いのブラウザは HTML5 動画をサポートしていません。その代わりに<a href="./sources/audios/audio.mp3">音声へのリンク</a>があります。</p>
+            </audio>
+            <figcaption>オーディオはアコーディオン</figcaption>
+        </figure>
+    </body>
+</html>

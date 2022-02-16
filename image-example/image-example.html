@@ -28,17 +28,20 @@
         </figure>
 
         <h2>ビデオの表示テスト</h2>
-        <video controls width="500" height="500"
-            loop muted poster="./sources/poster.png">
-            <source src="./sources/videos/video.mp4" type="video/mp4">
-            <source src="./sources/videos/video.webm" type="video/webm">
-            <p>お使いのブラウザは HTML5 動画をサポートしていません。その代わりに<a href="./sources/videos/video.mp4">動画へのリンク</a>があります。</p>
-            <track kind="subtitles" src="./sources/subtitles/subtitle_ja.vtt" srclang="ja" default>
-            <track kind="subtitles" src="./sources/subtitles/subtitle_en.vtt" srclang="en">
-        </video>
-
         <figure>
-            <h2>オーディオの表示テスト</h2>
+            <video controls width="500" height="500"
+                loop muted poster="./sources/poster.png">
+                <source src="./sources/videos/video.mp4" type="video/mp4">
+                <source src="./sources/videos/video.webm" type="video/webm">
+                <p>お使いのブラウザは HTML5 動画をサポートしていません。その代わりに<a href="./sources/videos/video.mp4">動画へのリンク</a>があります。</p>
+                <track kind="subtitles" src="./sources/subtitles/subtitle_ja.vtt" srclang="ja" default>
+                <track kind="subtitles" src="./sources/subtitles/subtitle_en.vtt" srclang="en">
+            </video>
+            <figcaption>ビデオはびっでおー</figcaption>
+        </figure>
+
+        <h2>オーディオの表示テスト</h2>
+        <figure>
             <audio controls loop>
                 <source src="./sources/audios/audio.mp3" type="audio/mp3">
                 <source src="./sources/audios/audio.ogg" type="audio/ogg">

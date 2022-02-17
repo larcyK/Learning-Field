@@ -1,22 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja-jp">
   <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
+    <meta charset="utf-8" />
+    <title>HTMLの練習</title>
+    <link rel="stylesheet" href="./table-example/minimal-table.css">
   </head>
   <body>
-    <p>This is my page</p>
-      <ul>
-  <li><a href="./meta-example/meta-example.html">meta-example</a></li>
-        <li><a href="./list-example/list-example.html">list-example</a></li>
-        <li><a href="./structure-example/structure-example.html">structure-example</a></li>
-        <li><a href="./debug-example/debug-example.html">debug-example</a></li>
-        <li><a href="./markuped-letter/letter.html">markuped-letter</a></li>
-        <li><a href="./image-example/image-example.html">image-example</a></li>
-        <li><a href="./iframe-example/iframe-example.html">iframe-example</a></li>
-        <li><a href="./responsive/index.html">responsive</a></li>
-        <li><a href="./mdn-splash-page/index.html">mdn-splash-page</a></li>
-        <li><a href="./table-example/index.html">table-example</a></li>
-      </ul>
+    <p>HTMLを学んだ成果はこちらから</p>
+    <table>
+      <tbody>
+        <tr>
+          <th scope="rowgroup" rowspan="5">整形・リストなどの<br>HTMLの基本的な操作</th>
+          <th scope="row">メタタグの使い方</th>
+          <td><a href="./meta-example/meta-example.html">meta-example</a></td>
+        </tr>
+        <tr>
+          <th scope="row">リストの作成</th>
+          <td><a href="./list-example/list-example.html">list-example</a></td>
+        </tr>
+        <tr>
+          <th scope="row">ページの構造</th>
+          <td><a href="./structure-example/structure-example.html">structure-example</a></td>
+        </tr>
+        <tr>
+          <th scope="row" rowspan="2">確認テスト</th>
+          <td><a href="./debug-example/debug-example.html">debug-example</a></td>
+        </tr>
+        <tr>
+          <td><a href="./markuped-letter/letter.html">markuped-letter</a></td>
+        </tr>
+        <tr>
+          <th scope="rowgroup" rowspan="4">画像等のメディアを<br>HTMLページに埋め込む方法</th>
+          <th scope="row">画像・音声・動画の埋め込み</th>
+          <td><a href="./image-example/image-example.html">image-example</a></td>
+        </tr>
+        <tr>
+          <th scope="row">Youtube等外部コンテンツの埋め込み</th>
+          <td><a href="./iframe-example/iframe-example.html">iframe-example</a></td>
+        </tr>
+        <tr>
+          <th scope="row">レスポンシブページの作成</th>
+          <td><a href="./responsive/index.html">responsive</a></td>
+        </tr>
+        <tr>
+          <th scope="row">確認テスト</th>
+          <td><a href="./mdn-splash-page/index.html">mdn-splash-page</a></td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2">テーブルの作成</th>
+          <td><a href="./table-example/index.html">table-example</a></td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

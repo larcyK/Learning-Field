@@ -10,9 +10,19 @@
         color: black;
       }
 
-      ol {
+      body > ol {
         list-style: none;
         padding-left: 0.1em;
+      }
+
+      span ol {
+        border: 1px dashed wheat;
+        padding: 5%;
+      }
+
+      span ol span.title {
+        border: none;
+        margin-left: -1em;
       }
 
       ol caption {
@@ -51,31 +61,44 @@
         padding: 1px 4px 1px 4px;
         border: 2px solid green;
         color: goldenrod;
-        background-color:azure
+        background-color: azure;
       }
 
       span.title {
         border: 5px dotted darkcyan;
         font-size: 1.6em;
-        background-color:azure;
+        background-color: azure;
       }
     </style>
   </head>
 
   <body>
-    <p>
+    <span>
       <ol>
-        <span class="title">ドキドキ！？日本の苗字ランキング！！</span>
-        <br><br>
-        <li class="gold">第一位：<em>佐藤</em>！！！</li>
-        <li class="silver">第二位：<em>鈴木</em>！！</li>
-        <li class="bronze">第三位：<em>田中</em>！</li>
-        <br>
-        <li class="worst">圏外：山田......</li>
-        <br><br><br>
-        ハラハラドキドキの手に汗握るランキングでしたね...！
-        いいなと思ったら<em>チャンネル登録</em><em>高評価</em><em>通知ON</em>もよろしくね！
+        <span class="title">ワクワク！！都道府県ランキング！！</span>
+        <br /><br />
+        <li class="gold">北海道！！！</li>
+        <li class="silver">長野！！</li>
+        <li class="bronze">秋田！</li>
+        <br />
+        <li class="worst">圏外：栃木......</li>
       </ol>
-    </p>
+    </span>
+    <br>
+    <ol>
+      <span class="title">ドキドキ！？日本の苗字ランキング！！</span>
+      <br /><br />
+      <li class="gold">第一位：<em>佐藤</em>！！！</li>
+      <li class="silver">第二位：<em>鈴木</em>！！</li>
+      <li class="bronze">第三位：<em>田中</em>！</li>
+      <br />
+      <li class="worst">圏外：山田......</li>
+      <br /><br /><br />
+      ハラハラドキドキの手に汗握るランキングでしたね...！ いいなと思ったら<em
+        >チャンネル登録</em
+      ><em>高評価</em
+      ><em>通知ON</em
+      >もよろしくね！
+    </ol>
   </body>
 </html>

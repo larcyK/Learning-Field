@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+  <head>
+    <meta charset="utf-8" />
+    <title>属性セレクター</title>
+
+    <style>
+      a {
+        border: 5px solid grey;
+        margin-top: 0,2em;
+      }
+      li{
+        margin-top: 1em;
+      }
+      a[title]{
+        border-color: pink;
+      }
+      a[href*="css"]{
+        border-color: orange;
+      }
+      a[href^="https"]{
+        border-color: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <li><a href="./index.html">Link 1</a></li>
+      <li><a href="../index.html" title="Visit first CSS">Link 2</a></li>
+      <li><a href="../index2.html">Link 3</a></li>
+      <li><a href="../first-css/index.html">Link 4</a></li>
+      <li><a href="http://example.com" title="Visit example.com">Link 5</a></li>
+      <li><a href="https://example.com">Link 6</a></li>
+    </ul>
+  </body>
+</html>

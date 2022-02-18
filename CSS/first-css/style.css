@@ -1,0 +1,37 @@
+@media (min-width: 45em) {
+  ul {
+    background-color: coral;
+  }
+}
+
+p {
+  color:cadetblue;
+}
+
+p span {
+  font-weight: bold;
+  color:blueviolet;
+}
+
+span.box{
+  font-size: 1.5em;
+  background-color:darkgrey;
+  border: 2px dashed brown;
+}
+
+ul li strong {
+  font-style: inherit;
+  font-size: 300%;
+}
+
+li + li + li {
+  transform: rotate(-0.03turn);
+}
+
+a:link {
+  font-size: calc(110% + 0.2em);
+}
+
+a:visited {
+  font-size: 70%
+}

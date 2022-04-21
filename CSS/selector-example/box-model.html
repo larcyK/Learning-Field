@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+  <head>
+    <meta charset="utf-8" />
+    <title>ボックスモデル</title>
+
+    <style>
+      li[class~="nodot"][class~="putleft"]{
+        margin-left: -1em;
+      }
+      li[class~="nodot"]{
+        list-style: none;
+      }
+      ul li{
+        margin-top: 0.6em;
+        font-size: 1.2em;
+      }
+      li{
+        margin-top: 0.5em;
+      }
+      li[class^="top"]{
+        border-top: 2px solid blue;
+      }
+      li[class$="bottom"]{
+        border-bottom: 2px solid green;
+      }
+      li[class*="redback"]{
+        background-color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    ここにコンテンツが来る予定
+  </body>
+</html>

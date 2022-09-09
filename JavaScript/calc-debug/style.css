@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eeeeee;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.form {
+  zoom: 2;
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 30px;
+}
+
+#result {
+  width: 30px;
+  display: inline-block;
+}
+
+.action {
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: #ddd 1px solid;
+  text-align: center;
+  zoom: 1.5;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+  <head>
+    <meta charset="utf-8">
+    <title>数字当てゲーム</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+  </head>
+
+  <body>
+    <h1>数字当てゲーム</h1>
+
+    <p>1以上100以下のランダムな数字を選んだよ。10回以下で当ててみてね。選んだ数字が大きいか小さいかを表示するよ。</p>
+
+    <div class="form">
+      <label for="guessField">予想を入力してね: </label>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField">
+      <input type="submit" value="予想を入力" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+  </body>
+</html>
